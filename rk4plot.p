@@ -1,0 +1,1 @@
+plot 'rk4data.dat' u 1:2 w lp lw 0.5 lc 8, 'rk4dataexact.dat' u 1:2 w lp lw 0.5 lc 13

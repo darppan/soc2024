@@ -1,0 +1,1 @@
+plot 'eulerdata.dat' u 1:2 w lp lw 1.5 lc 8, 'eulerdataexact.dat' u 1:2 w lp lw 1.5 lc 13
