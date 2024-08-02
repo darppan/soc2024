@@ -6,7 +6,6 @@ subroutine grid2flat(grid, flat)
     k=1
     do i=1,49
         do j=1,49
-            print*,"grid2flat",i,j
             flat(k)=grid(i,j)
             k=k+1
         end do
@@ -21,7 +20,6 @@ subroutine flat2grid(flat, grid)
     k=1
     do i=1,49
         do j=1,49
-            print*,"flat2grid",i,j
             grid(i,j) = flat(k)
             k=k+1
         end do
